@@ -1,0 +1,33 @@
+name: Tự động đồng bộ Podcast
+
+on:
+  schedule:
+    - cron: '0 * * * *' # Chạy mỗi tiếng 1 lần
+  workflow_dispatch: # Cho phép bấm nút chạy thủ công
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Cài đặt Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+          
+      - name: Cài đặt thư viện
+        run: pip install feedparser requests huggingface_hub
+        
+      - name: Chạy script đồng bộ
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+        run: python sync_podcast.py
+        
+      - name: Lưu thay đổi vào GitHub
+        run: |
+          git config --global user.name "GitHub Action"
+          git config --global user.email "action@github.com"
+          git add playlist.json
+          git commit -m "Cập nhật bài mới tự động" || exit 0
+          git push
