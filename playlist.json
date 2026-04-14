@@ -1,1 +1,524 @@
-[]
+[
+  {
+    "title": "Tập 49. TRÍ TUỆ BÁT NHÃ CỦA PHẬT VƯỢT QUA MỌI RÀNG BUỘC",
+    "url": "https://huggingface.co/datasets/patonline85/radio-pmtl-site/resolve/main/audio/63010910.mp3",
+    "original_url": "https://api.spreaker.com/download/episode/63010910/t_p_49_tr_tu_b_t_nh_c_a_ph_t_v_t_qua_m_i_r_ng_bu_c.mp3",
+    "duration": "925"
+  },
+  {
+    "title": "Tập 50. NGŨ UẨN GIAI KHÔNG HÀNH THÂM BÁT NHÃ",
+    "url": "https://huggingface.co/datasets/patonline85/radio-pmtl-site/resolve/main/audio/63010889.mp3",
+    "original_url": "https://api.spreaker.com/download/episode/63010889/t_p_50_ng_u_n_giai_kh_ng_h_nh_th_m_b_t_nh.mp3",
+    "duration": "1383"
+  },
+  {
+    "title": "Tập 51. TỪ BỎ VỌNG TƯỞNG PHI TƯỞNG PHI PHI TƯỞNG",
+    "url": "https://huggingface.co/datasets/patonline85/radio-pmtl-site/resolve/main/audio/63010909.mp3",
+    "original_url": "https://api.spreaker.com/download/episode/63010909/t_p_51_t_b_v_ng_t_ng_phi_t_ng_phi_phi_t_ng.mp3",
+    "duration": "1218"
+  },
+  {
+    "title": "Tập 52. KIẾN - TU - HÀNH LÀ CHÌA KHÓA CỦA SỰ CHỨNG NGỘ",
+    "url": "https://huggingface.co/datasets/patonline85/radio-pmtl-site/resolve/main/audio/63010915.mp3",
+    "original_url": "https://api.spreaker.com/download/episode/63010915/t_p_52_ki_n_tu_h_nh_l_ch_a_kh_a_c_a_s_ch_ng_ng.mp3",
+    "duration": "1321"
+  },
+  {
+    "title": "Tập 53. TĨNH ĐỊNH LÀ CHIẾU KIẾN",
+    "url": "https://huggingface.co/datasets/patonline85/radio-pmtl-site/resolve/main/audio/63010879.mp3",
+    "original_url": "https://api.spreaker.com/download/episode/63010879/t_p_53_t_nh_nh_l_chi_u_ki_n.mp3",
+    "duration": "1722"
+  },
+  {
+    "title": "TẬP 54. BUÔNG BỎ CỐ CHẤP TÌM KIẾM BỔN TÁNH , BẠCH THOẠI PHẬT PHÁP",
+    "url": "https://huggingface.co/datasets/patonline85/radio-pmtl-site/resolve/main/audio/63010884.mp3",
+    "original_url": "https://api.spreaker.com/download/episode/63010884/t_p_54_bu_ng_b_c_ch_p_t_m_ki_m_b_n_t_nh_b_ch_tho_i_ph_t_ph_p.mp3",
+    "duration": "1040"
+  },
+  {
+    "title": "TẬP 55. NHỮ TÂM BỔN TÁNH QUÁN TỰ TẠI , BẠCH THOẠI PHẬT PHÁP",
+    "url": "https://huggingface.co/datasets/patonline85/radio-pmtl-site/resolve/main/audio/63010896.mp3",
+    "original_url": "https://api.spreaker.com/download/episode/63010896/t_p_55_nh_t_m_b_n_t_nh_qu_n_t_t_i_b_ch_tho_i_ph_t_ph_p.mp3",
+    "duration": "1216"
+  },
+  {
+    "title": "Tập 56. TRI - HÀNH HỢP NHẤT LÀ THÀNH ĐẠO 29-4-2020",
+    "url": "https://huggingface.co/datasets/patonline85/radio-pmtl-site/resolve/main/audio/63010902.mp3",
+    "original_url": "https://api.spreaker.com/download/episode/63010902/t_p_56_tri_h_nh_h_p_nh_t_l_th_nh_o_29_4_2020.mp3",
+    "duration": "670"
+  },
+  {
+    "title": "TẬP 57. LẤY VIỆC HỌC PHẬT THƯỜNG XUYÊN LÀM GỐC , BẠCH THOẠI PHẬT PHÁP",
+    "url": "https://huggingface.co/datasets/patonline85/radio-pmtl-site/resolve/main/audio/63010914.mp3",
+    "original_url": "https://api.spreaker.com/download/episode/63010914/t_p_57_l_y_vi_c_h_c_ph_t_th_ng_xuy_n_l_m_g_c_b_ch_tho_i_ph_t_ph_p.mp3",
+    "duration": "1505"
+  },
+  {
+    "title": "Tập 58 SỰ KHÁC BIỆT GIỮA KIẾN ĐẠO VÀ TU ĐẠO 252020",
+    "url": "https://huggingface.co/datasets/patonline85/radio-pmtl-site/resolve/main/audio/63021797.mp3",
+    "original_url": "https://api.spreaker.com/download/episode/63021797/t_p_58_s_kh_c_bi_t_gi_a_ki_n_o_v_tu_o_252020.mp3",
+    "duration": "1634"
+  },
+  {
+    "title": "Tập 59. KHÔNG THẤY BỔN TÁNH TU PHÁP VÔ ÍCH",
+    "url": "https://huggingface.co/datasets/patonline85/radio-pmtl-site/resolve/main/audio/63073479.mp3",
+    "original_url": "https://api.spreaker.com/download/episode/63073479/t_p_59_kh_ng_th_y_b_n_t_nh_tu_ph_p_v_ch.mp3",
+    "duration": "1632"
+  },
+  {
+    "title": "Tập 60 THẤU HIỂU LÀ GIẢI THOÁT",
+    "url": "https://huggingface.co/datasets/patonline85/radio-pmtl-site/resolve/main/audio/63120669.mp3",
+    "original_url": "https://api.spreaker.com/download/episode/63120669/t_p_60_th_u_hi_u_l_gi_i_tho_t.mp3",
+    "duration": "1365"
+  },
+  {
+    "title": "Tập 61 NGŨ TRƯỢC PHIỀN NÃO CHÍNH LÀ NGHIỆP CHƯỚNG",
+    "url": "https://huggingface.co/datasets/patonline85/radio-pmtl-site/resolve/main/audio/63206155.mp3",
+    "original_url": "https://api.spreaker.com/download/episode/63206155/t_p_61_ng_tr_c_phi_n_n_o_ch_nh_l_nghi_p_ch_ng.mp3",
+    "duration": "1689"
+  },
+  {
+    "title": "Tập 62 TÁNH TRUNG TƯƠNG TRI, NGUYÊN MINH GIÁC",
+    "url": "https://huggingface.co/datasets/patonline85/radio-pmtl-site/resolve/main/audio/63263164.mp3",
+    "original_url": "https://api.spreaker.com/download/episode/63263164/t_p_62_t_nh_trung_t_ng_tri_nguy_n_minh_gi_c.mp3",
+    "duration": "1233"
+  },
+  {
+    "title": "Tập 63 CHỨNG PHẬT QUẢ MINH TÂM TÁNH",
+    "url": "https://huggingface.co/datasets/patonline85/radio-pmtl-site/resolve/main/audio/63323393.mp3",
+    "original_url": "https://api.spreaker.com/download/episode/63323393/t_p_63_ch_ng_ph_t_qu_minh_t_m_t_nh.mp3",
+    "duration": "2024"
+  },
+  {
+    "title": "Tập 64 VÔ THỦ VÔ CHỨNG HOÀN SƠ BỔN GIÁC",
+    "url": "https://huggingface.co/datasets/patonline85/radio-pmtl-site/resolve/main/audio/63373339.mp3",
+    "original_url": "https://api.spreaker.com/download/episode/63373339/t_p_64_v_th_v_ch_ng_ho_n_s_b_n_gi_c.mp3",
+    "duration": "1708"
+  },
+  {
+    "title": "Tập 65 CẢNH GIỚI KHAM NHẪN LÀ NỀN TẢNG CỦA PHẬT",
+    "url": "https://huggingface.co/datasets/patonline85/radio-pmtl-site/resolve/main/audio/63427179.mp3",
+    "original_url": "https://api.spreaker.com/download/episode/63427179/t_p_65_c_nh_gi_i_kham_nh_n_l_n_n_t_ng_c_a_ph_t.mp3",
+    "duration": "1266"
+  },
+  {
+    "title": "TẬP 66 PHẬT TÁNH BÌNH ĐẲNG VÔ NHỊ",
+    "url": "https://huggingface.co/datasets/patonline85/radio-pmtl-site/resolve/main/audio/63460519.mp3",
+    "original_url": "https://api.spreaker.com/download/episode/63460519/t_p_66_ph_t_t_nh_b_nh_ng_v_nh.mp3",
+    "duration": "1156"
+  },
+  {
+    "title": "Tập 67 TÂM VÔ SỞ ĐỘNG, TÂM VÔ SỞ TRỤ",
+    "url": "https://huggingface.co/datasets/patonline85/radio-pmtl-site/resolve/main/audio/63493089.mp3",
+    "original_url": "https://api.spreaker.com/download/episode/63493089/t_p_67_t_m_v_s_ng_t_m_v_s_tr.mp3",
+    "duration": "1431"
+  },
+  {
+    "title": "Tập 68 QUÁN CHIẾU CHÍNH LÀ CHIẾU KIẾN",
+    "url": "https://huggingface.co/datasets/patonline85/radio-pmtl-site/resolve/main/audio/63507750.mp3",
+    "original_url": "https://api.spreaker.com/download/episode/63507750/t_p_68_qu_n_chi_u_ch_nh_l_chi_u_ki_n.mp3",
+    "duration": "1131"
+  },
+  {
+    "title": "Tập 69 THỰC TƯỚNG CHÂN TÂM GIÁC NGỘ HỮU ĐẠO",
+    "url": "https://huggingface.co/datasets/patonline85/radio-pmtl-site/resolve/main/audio/63578845.mp3",
+    "original_url": "https://api.spreaker.com/download/episode/63578845/t_p_69_th_c_t_ng_ch_n_t_m_gi_c_ng_h_u_o.mp3",
+    "duration": "1433"
+  },
+  {
+    "title": "Tập 70 NHƯ NHƯ BẤT ĐỘNG, TÂM TỰ HẠO NHIÊN",
+    "url": "https://huggingface.co/datasets/patonline85/radio-pmtl-site/resolve/main/audio/63578848.mp3",
+    "original_url": "https://api.spreaker.com/download/episode/63578848/t_p_70_nh_nh_b_t_ng_t_m_t_h_o_nhi_n.mp3",
+    "duration": "1321"
+  },
+  {
+    "title": "Tập 71 NHẤT NIỆM TRÍ TỨC BÁT NHÃ",
+    "url": "https://huggingface.co/datasets/patonline85/radio-pmtl-site/resolve/main/audio/63609214.mp3",
+    "original_url": "https://api.spreaker.com/download/episode/63609214/t_p_71_nh_t_ni_m_tr_t_c_b_t_nh.mp3",
+    "duration": "1242"
+  },
+  {
+    "title": "Tập 72. TU TÂM NHƯ SƠ, RỜI XA MÊ CẢNH",
+    "url": "https://huggingface.co/datasets/patonline85/radio-pmtl-site/resolve/main/audio/63652738.mp3",
+    "original_url": "https://api.spreaker.com/download/episode/63652738/t_p_72_tu_t_m_nh_s_r_i_xa_m_c_nh.mp3",
+    "duration": "1205"
+  },
+  {
+    "title": "Tập 73 SƠ CHÁNH TẮC CHUNG CHÁNH",
+    "url": "https://huggingface.co/datasets/patonline85/radio-pmtl-site/resolve/main/audio/63672868.mp3",
+    "original_url": "https://api.spreaker.com/download/episode/63672868/t_p_73_s_ch_nh_t_c_chung_ch_nh.mp3",
+    "duration": "1117"
+  },
+  {
+    "title": "Tập 74 DIỆT TẬN PHIỀN NÃO CỦA TAM GIỚI",
+    "url": "https://huggingface.co/datasets/patonline85/radio-pmtl-site/resolve/main/audio/63713096.mp3",
+    "original_url": "https://api.spreaker.com/download/episode/63713096/t_p_74_di_t_t_n_phi_n_n_o_c_a_tam_gi_i.mp3",
+    "duration": "1577"
+  },
+  {
+    "title": "Tập 75 PHƯỚC HUỆ SONG TU THOÁT LỤC ĐẠO",
+    "url": "https://huggingface.co/datasets/patonline85/radio-pmtl-site/resolve/main/audio/63753294.mp3",
+    "original_url": "https://api.spreaker.com/download/episode/63753294/t_p_75_ph_c_hu_song_tu_tho_t_l_c_o.mp3",
+    "duration": "1364"
+  },
+  {
+    "title": "Tập 76 TAM TÂM BẤT KHẢ ĐẮC",
+    "url": "https://huggingface.co/datasets/patonline85/radio-pmtl-site/resolve/main/audio/63837346.mp3",
+    "original_url": "https://api.spreaker.com/download/episode/63837346/t_p_76_tam_t_m_b_t_kh_c.mp3",
+    "duration": "1621"
+  },
+  {
+    "title": "Tập 77 . SUY TÍNH THIỆT HƠN LÀ CHƯỚNG NGẠI",
+    "url": "https://huggingface.co/datasets/patonline85/radio-pmtl-site/resolve/main/audio/63935613.mp3",
+    "original_url": "https://api.spreaker.com/download/episode/63935613/t_p_77_suy_t_nh_thi_t_h_n_l_ch_ng_ng_i.mp3",
+    "duration": "1211"
+  },
+  {
+    "title": "Tập 78. RỘNG LƯỢNG KHOAN DUNG CHÍNH LÀ TỪ BI",
+    "url": "https://huggingface.co/datasets/patonline85/radio-pmtl-site/resolve/main/audio/64085952.mp3",
+    "original_url": "https://api.spreaker.com/download/episode/64085952/t_p_78_r_ng_l_ng_khoan_dung_ch_nh_l_t_bi.mp3",
+    "duration": "1266"
+  },
+  {
+    "title": "Tập 79. PHI SẮC PHI KHÔNG, VÔ TRỞ VÔ NGẠI",
+    "url": "https://huggingface.co/datasets/patonline85/radio-pmtl-site/resolve/main/audio/64198816.mp3",
+    "original_url": "https://api.spreaker.com/download/episode/64198816/t_p_79_phi_s_c_phi_kh_ng_v_tr_v_ng_i.mp3",
+    "duration": "1211"
+  },
+  {
+    "title": "Tập 80. NHẪN NHỤC LÀ MỘT LOẠI SỨC MẠNH",
+    "url": "https://huggingface.co/datasets/patonline85/radio-pmtl-site/resolve/main/audio/64294246.mp3",
+    "original_url": "https://api.spreaker.com/download/episode/64294246/t_p_80_nh_n_nh_c_l_m_t_lo_i_s_c_m_nh.mp3",
+    "duration": "986"
+  },
+  {
+    "title": "Tập 81 THẬP NIỆM PHÁP (1)",
+    "url": "https://huggingface.co/datasets/patonline85/radio-pmtl-site/resolve/main/audio/64375475.mp3",
+    "original_url": "https://api.spreaker.com/download/episode/64375475/t_p_81_th_p_ni_m_ph_p_1.mp3",
+    "duration": "1101"
+  },
+  {
+    "title": "Tập 82 THẬP NIỆM PHÁP (2)",
+    "url": "https://huggingface.co/datasets/patonline85/radio-pmtl-site/resolve/main/audio/64432217.mp3",
+    "original_url": "https://api.spreaker.com/download/episode/64432217/t_p_82_th_p_ni_m_ph_p_2.mp3",
+    "duration": "1303"
+  },
+  {
+    "title": "Tập 83 THẬP NIỆM PHÁP (3)",
+    "url": "https://huggingface.co/datasets/patonline85/radio-pmtl-site/resolve/main/audio/64506283.mp3",
+    "original_url": "https://api.spreaker.com/download/episode/64506283/t_p_83_th_p_ni_m_ph_p_3.mp3",
+    "duration": "953"
+  },
+  {
+    "title": "Tập 84 THẬP THIỆN LÀ CĂN NGUYÊN CỦA HUỆ MỆNH",
+    "url": "https://huggingface.co/datasets/patonline85/radio-pmtl-site/resolve/main/audio/64579860.mp3",
+    "original_url": "https://api.spreaker.com/download/episode/64579860/t_p_84_th_p_thi_n_l_c_n_nguy_n_c_a_hu_m_nh.mp3",
+    "duration": "1081"
+  },
+  {
+    "title": "Tập 85 TÂM, PHẬT, CHÚNG SINH CẢ BA ĐỀU KHÔNG CÓ SỰ KHÁC BIỆT",
+    "url": "https://huggingface.co/datasets/patonline85/radio-pmtl-site/resolve/main/audio/64667387.mp3",
+    "original_url": "https://api.spreaker.com/download/episode/64667387/t_p_85_t_m_ph_t_ch_ng_sinh_c_ba_u_kh_ng_c_s_kh_c_bi_t.mp3",
+    "duration": "1425"
+  },
+  {
+    "title": "TẬP 87 - HIỂU ĐƯỢC VÔ NGÃ CHÍNH LÀ BUÔNG BỎ",
+    "url": "https://huggingface.co/datasets/patonline85/radio-pmtl-site/resolve/main/audio/64830426.mp3",
+    "original_url": "https://api.spreaker.com/download/episode/64830426/t_p_87_hi_u_c_v_ng_ch_nh_l_bu_ng_b.mp3",
+    "duration": "1233"
+  },
+  {
+    "title": "Tập 88 BẤT SINH BẤT DIỆT TRONG PHẬT PHÁP",
+    "url": "https://huggingface.co/datasets/patonline85/radio-pmtl-site/resolve/main/audio/64895700.mp3",
+    "original_url": "https://api.spreaker.com/download/episode/64895700/t_p_88_b_t_sinh_b_t_di_t_trong_ph_t_ph_p.mp3",
+    "duration": "1448"
+  },
+  {
+    "title": "TẬP 01 - KHỞI TÂM ĐỘNG NIỆM TỨC LÀ NGHIỆP",
+    "url": "https://huggingface.co/datasets/patonline85/radio-pmtl-site/resolve/main/audio/64972948.mp3",
+    "original_url": "https://api.spreaker.com/download/episode/64972948/t_p_01_kh_i_t_m_ng_ni_m_t_c_l_nghi_p.mp3",
+    "duration": "2023"
+  },
+  {
+    "title": "TẬP 02 - KIỂM SOÁT TƯ DUY, XẢ TÂM ĐỂ TU TÂM",
+    "url": "https://huggingface.co/datasets/patonline85/radio-pmtl-site/resolve/main/audio/65010587.mp3",
+    "original_url": "https://api.spreaker.com/download/episode/65010587/t_p_02_ki_m_so_t_t_duy_x_t_m_tu_t_m.mp3",
+    "duration": "990"
+  },
+  {
+    "title": "TẬP 03 - NẾU KHÔNG SANH TÂM, CẢNH TỰ BẤT ĐỘNG",
+    "url": "https://huggingface.co/datasets/patonline85/radio-pmtl-site/resolve/main/audio/65041827.mp3",
+    "original_url": "https://api.spreaker.com/download/episode/65041827/t_p_03_n_u_kh_ng_sanh_t_m_c_nh_t_b_t_ng.mp3",
+    "duration": "1037"
+  },
+  {
+    "title": "TẬP 04 - CHỈ KHI BIẾT ĐIỀU GÌ KHÔNG NÊN LÀM,_MỚI CÓ THỂ SỐNG ĐÚNG",
+    "url": "https://huggingface.co/datasets/patonline85/radio-pmtl-site/resolve/main/audio/65099687.mp3",
+    "original_url": "https://api.spreaker.com/download/episode/65099687/t_p_04_ch_khi_bi_t_i_u_g_kh_ng_n_n_l_m_m_i_c_th_s_ng_ng.mp3",
+    "duration": "1428"
+  },
+  {
+    "title": "TẬP 05 - MUỐN CÓ ĐƯỢC ĐẠO ĐỨC BUỘC PHẢI TỪ BỎ “NGÃ MẠN”",
+    "url": "https://huggingface.co/datasets/patonline85/radio-pmtl-site/resolve/main/audio/65175807.mp3",
+    "original_url": "https://api.spreaker.com/download/episode/65175807/t_p_05_mu_n_c_c_o_c_bu_c_ph_i_t_b_ng_m_n.mp3",
+    "duration": "1266"
+  },
+  {
+    "title": "TẬP 06 - CÂU CHUYỆN VỀ ĐỨC PHẬT NĂM ẤY",
+    "url": "https://huggingface.co/datasets/patonline85/radio-pmtl-site/resolve/main/audio/65256337.mp3",
+    "original_url": "https://api.spreaker.com/download/episode/65256337/t_p_06_c_u_chuy_n_v_c_ph_t_n_m_y.mp3",
+    "duration": "1204"
+  },
+  {
+    "title": "TẬP 07 - THIỆN ÁC ĐỀU LÀ NHÂN QUẢ",
+    "url": "https://huggingface.co/datasets/patonline85/radio-pmtl-site/resolve/main/audio/65322656.mp3",
+    "original_url": "https://api.spreaker.com/download/episode/65322656/t_p_07_thi_n_c_u_l_nh_n_qu.mp3",
+    "duration": "1110"
+  },
+  {
+    "title": "TẬP 08 - GIẢI THOÁT KHỎI SỰ THAY ĐỔI CỦA NGOẠI CẢNH",
+    "url": "https://huggingface.co/datasets/patonline85/radio-pmtl-site/resolve/main/audio/65396876.mp3",
+    "original_url": "https://api.spreaker.com/download/episode/65396876/t_p_08_gi_i_tho_t_kh_i_s_thay_i_c_a_ngo_i_c_nh.mp3",
+    "duration": "1357"
+  },
+  {
+    "title": "TẬP 09 - KHÔNG ĐỂ ÁC DUYÊN CHÍN MUỒI LÀ TRÍ TUỆ",
+    "url": "https://huggingface.co/datasets/patonline85/radio-pmtl-site/resolve/main/audio/65524649.mp3",
+    "original_url": "https://api.spreaker.com/download/episode/65524649/t_p_09_kh_ng_c_duy_n_ch_n_mu_i_l_tr_tu.mp3",
+    "duration": "1017"
+  },
+  {
+    "title": "TẬP 10 - LOẠI BỎ CỘI NGUỒN CỦA DỤC VỌNG",
+    "url": "https://huggingface.co/datasets/patonline85/radio-pmtl-site/resolve/main/audio/65567075.mp3",
+    "original_url": "https://api.spreaker.com/download/episode/65567075/t_p_10_lo_i_b_c_i_ngu_n_c_a_d_c_v_ng.mp3",
+    "duration": "1299"
+  },
+  {
+    "title": "TẬP 11 - CHIẾU KIẾN NGŨ UẨN GIAI KHÔNG",
+    "url": "https://huggingface.co/datasets/patonline85/radio-pmtl-site/resolve/main/audio/65608197.mp3",
+    "original_url": "https://api.spreaker.com/download/episode/65608197/t_p_11_chi_u_ki_n_ng_u_n_giai_kh_ng.mp3",
+    "duration": "931"
+  },
+  {
+    "title": "TẬP 12 - NHẪN NHỤC LÀ ĐỨC, BÌNH TĨNH LÀ PHÚC",
+    "url": "https://huggingface.co/datasets/patonline85/radio-pmtl-site/resolve/main/audio/65658649.mp3",
+    "original_url": "https://api.spreaker.com/download/episode/65658649/t_p_12_nh_n_nh_c_l_c_b_nh_t_nh_l_ph_c.mp3",
+    "duration": "1410"
+  },
+  {
+    "title": "TẬP 13 - LUÔN GIỮ TÂM NIỆM KHÔNG TĂNG KHÔNG GIẢM",
+    "url": "https://huggingface.co/datasets/patonline85/radio-pmtl-site/resolve/main/audio/65733837.mp3",
+    "original_url": "https://api.spreaker.com/download/episode/65733837/t_p_13_lu_n_gi_t_m_ni_m_kh_ng_t_ng_kh_ng_gi_m.mp3",
+    "duration": "1184"
+  },
+  {
+    "title": "TẬP 14 - TỰ CHỦ PHIỀN NÃO, BÁT NHÃ TƯƠNG TRÍ",
+    "url": "https://huggingface.co/datasets/patonline85/radio-pmtl-site/resolve/main/audio/65787741.mp3",
+    "original_url": "https://api.spreaker.com/download/episode/65787741/t_p_14_t_ch_phi_n_n_o_b_t_nh_t_ng_tr.mp3",
+    "duration": "1290"
+  },
+  {
+    "title": "TẬP 15 - PHI HỮU PHI VÔ, TU RA MINH ĐIỂM",
+    "url": "https://huggingface.co/datasets/patonline85/radio-pmtl-site/resolve/main/audio/65911793.mp3",
+    "original_url": "https://api.spreaker.com/download/episode/65911793/t_p_15_phi_h_u_phi_v_tu_ra_minh_i_m.mp3",
+    "duration": "1170"
+  },
+  {
+    "title": "TẬP 16 - THUẬN DUYÊN, NGHỊCH DUYÊN, PHẬT ĐẠO TỰ NHIÊN",
+    "url": "https://huggingface.co/datasets/patonline85/radio-pmtl-site/resolve/main/audio/66049641.mp3",
+    "original_url": "https://api.spreaker.com/download/episode/66049641/t_p_16_thu_n_duy_n_ngh_ch_duy_n_ph_t_o_t_nhi_n.mp3",
+    "duration": "920"
+  },
+  {
+    "title": "TẬP 17 - ĐIỀU DƯỠNG THÂN TÂM, NHẪN NHỤC LÀ TRÊN HẾT",
+    "url": "https://huggingface.co/datasets/patonline85/radio-pmtl-site/resolve/main/audio/66196312.mp3",
+    "original_url": "https://api.spreaker.com/download/episode/66196312/t_p_17_i_u_d_ng_th_n_t_m_nh_n_nh_c_l_tr_n_h_t.mp3",
+    "duration": "1000"
+  },
+  {
+    "title": "TẬP 18 - VƯỢT QUA TÂM MA, CHÁNH TÍN CHÁNH NIỆM",
+    "url": "https://huggingface.co/datasets/patonline85/radio-pmtl-site/resolve/main/audio/66308379.mp3",
+    "original_url": "https://api.spreaker.com/download/episode/66308379/t_p_18_v_t_qua_t_m_ma_ch_nh_t_n_ch_nh_ni_m.mp3",
+    "duration": "934"
+  },
+  {
+    "title": "TẬP 19 - TRÁNH XA LỤC TẶC, ĐẠT ĐƯỢC THIỀN ĐỊNH",
+    "url": "https://huggingface.co/datasets/patonline85/radio-pmtl-site/resolve/main/audio/66415997.mp3",
+    "original_url": "https://api.spreaker.com/download/episode/66415997/t_p_19_tr_nh_xa_l_c_t_c_t_c_thi_n_nh.mp3",
+    "duration": "989"
+  },
+  {
+    "title": "TẬP 20 - TÌM KIẾM BẢN TÁNH TRONG VÔ THƯỜNG",
+    "url": "https://huggingface.co/datasets/patonline85/radio-pmtl-site/resolve/main/audio/66547260.mp3",
+    "original_url": "https://api.spreaker.com/download/episode/66547260/t_p_20_t_m_ki_m_b_n_t_nh_trong_v_th_ng.mp3",
+    "duration": "986"
+  },
+  {
+    "title": "TẬP 21 - ĐẠI TRÍ TUỆ CỦA ĐỨC PHẬT",
+    "url": "https://huggingface.co/datasets/patonline85/radio-pmtl-site/resolve/main/audio/66584221.mp3",
+    "original_url": "https://api.spreaker.com/download/episode/66584221/t_p_21_i_tr_tu_c_a_c_ph_t.mp3",
+    "duration": "846"
+  },
+  {
+    "title": "TẬP 22 - TÁNH KHÔNG NGUYÊN SƠ, TỰ HỮU BẢN TÁNH",
+    "url": "https://huggingface.co/datasets/patonline85/radio-pmtl-site/resolve/main/audio/66690516.mp3",
+    "original_url": "https://api.spreaker.com/download/episode/66690516/t_p_22_t_nh_kh_ng_nguy_n_s_t_h_u_b_n_t_nh.mp3",
+    "duration": "1001"
+  },
+  {
+    "title": "TẬP 23 - TỨ CHÁNH CẦN LÀ TRÍ TUỆ CỦA TÁNH KHÔNG",
+    "url": "https://huggingface.co/datasets/patonline85/radio-pmtl-site/resolve/main/audio/66788752.mp3",
+    "original_url": "https://api.spreaker.com/download/episode/66788752/t_p_23_t_ch_nh_c_n_l_tr_tu_c_a_t_nh_kh_ng.mp3",
+    "duration": "1134"
+  },
+  {
+    "title": "TẬP 24 - CHUYỂN MÊ THÀNH GIÁC, CHUYỂN NHIỄM THÀNH TỊNH",
+    "url": "https://huggingface.co/datasets/patonline85/radio-pmtl-site/resolve/main/audio/66848005.mp3",
+    "original_url": "https://api.spreaker.com/download/episode/66848005/t_p_24_chuy_n_m_th_nh_gi_c_chuy_n_nhi_m_th_nh_t_nh.mp3",
+    "duration": "1162"
+  },
+  {
+    "title": "TẬP 25 - THANH TẨY NGHIỆP CHƯỚNG, NUÔI DƯỠNG TRÍ TUỆ",
+    "url": "https://huggingface.co/datasets/patonline85/radio-pmtl-site/resolve/main/audio/66896123.mp3",
+    "original_url": "https://api.spreaker.com/download/episode/66896123/t_p_25_thanh_t_y_nghi_p_ch_ng_nu_i_d_ng_tr_tu.mp3",
+    "duration": "887"
+  },
+  {
+    "title": "TẬP 26 - KIỂM SOÁT SỰ LÂY LAN CỦA CẢM XÚC",
+    "url": "https://huggingface.co/datasets/patonline85/radio-pmtl-site/resolve/main/audio/67021802.mp3",
+    "original_url": "https://api.spreaker.com/download/episode/67021802/t_p_26_ki_m_so_t_s_l_y_lan_c_a_c_m_x_c.mp3",
+    "duration": "846"
+  },
+  {
+    "title": "TẬP 27 - VÔ SỞ TRỤ NHI SINH KỲ TÂM",
+    "url": "https://huggingface.co/datasets/patonline85/radio-pmtl-site/resolve/main/audio/67195454.mp3",
+    "original_url": "https://api.spreaker.com/download/episode/67195454/t_p_27_v_s_tr_nhi_sinh_k_t_m.mp3",
+    "duration": "666"
+  },
+  {
+    "title": "TẬP 28 - BÁO ỨNG NHƯ HÌNH VỚI BÓNG",
+    "url": "https://huggingface.co/datasets/patonline85/radio-pmtl-site/resolve/main/audio/67285548.mp3",
+    "original_url": "https://api.spreaker.com/download/episode/67285548/t_p_28_b_o_ng_nh_h_nh_v_i_b_ng.mp3",
+    "duration": "1823"
+  },
+  {
+    "title": "TẬP 29 - QUÁN KHÔNG LÀ NỀN TẢNG CỦA NGŨ UẨN GIAI KHÔNG",
+    "url": "https://huggingface.co/datasets/patonline85/radio-pmtl-site/resolve/main/audio/67351698.mp3",
+    "original_url": "https://api.spreaker.com/download/episode/67351698/t_p_29_qu_n_kh_ng_l_n_n_t_ng_c_a_ng_u_n_giai_kh_ng.mp3",
+    "duration": "1111"
+  },
+  {
+    "title": "TẬP 30 - KHÔNG QUÁN VÀ CỬU THỨC HỢP NHẤT",
+    "url": "https://huggingface.co/datasets/patonline85/radio-pmtl-site/resolve/main/audio/67493477.mp3",
+    "original_url": "https://api.spreaker.com/download/episode/67493477/t_p_30_kh_ng_qu_n_v_c_u_th_c_h_p_nh_t.mp3",
+    "duration": "1246"
+  },
+  {
+    "title": "TẬP 31 - GIỮ VỮNG CHÁNH NIỆM RỜI XA LỪA DỐI",
+    "url": "https://huggingface.co/datasets/patonline85/radio-pmtl-site/resolve/main/audio/67527395.mp3",
+    "original_url": "https://api.spreaker.com/download/episode/67527395/t_p_31_gi_v_ng_ch_nh_ni_m_r_i_xa_l_a_d_i.mp3",
+    "duration": "870"
+  },
+  {
+    "title": "TẬP 32 - QUÁN NIỆM, TỊNH NIỆM, VÔ NIỆM",
+    "url": "https://huggingface.co/datasets/patonline85/radio-pmtl-site/resolve/main/audio/67614237.mp3",
+    "original_url": "https://api.spreaker.com/download/episode/67614237/t_p_32_qu_n_ni_m_t_nh_ni_m_v_ni_m.mp3",
+    "duration": "926"
+  },
+  {
+    "title": "TẬP 33 - HÀNH THIỆN NHƯỢC THỦY, HÀNH NGUYỆN NHƯỢC SƠN",
+    "url": "https://huggingface.co/datasets/patonline85/radio-pmtl-site/resolve/main/audio/67689592.mp3",
+    "original_url": "https://api.spreaker.com/download/episode/67689592/t_p_33_h_nh_thi_n_nh_c_th_y_h_nh_nguy_n_nh_c_s_n.mp3",
+    "duration": "905"
+  },
+  {
+    "title": "TẬP 34 - TỰ TÁNH BẤT MÊ. CHÚNG THIỆN PHỤNG HÀNH",
+    "url": "https://huggingface.co/datasets/patonline85/radio-pmtl-site/resolve/main/audio/67822465.mp3",
+    "original_url": "https://api.spreaker.com/download/episode/67822465/t_p_34_t_t_nh_b_t_m_ch_ng_thi_n_ph_ng_h_nh.mp3",
+    "duration": "821"
+  },
+  {
+    "title": "TẬP 35 - BẤT NHẬP DANH TƯỚNG. NHƯỢC KIẾN TÁNH",
+    "url": "https://huggingface.co/datasets/patonline85/radio-pmtl-site/resolve/main/audio/67920185.mp3",
+    "original_url": "https://api.spreaker.com/download/episode/67920185/t_p_35_b_t_nh_p_danh_t_ng_nh_c_ki_n_t_nh.mp3",
+    "duration": "1244"
+  },
+  {
+    "title": "TẬP 36 - TRUNG QUÁN TRUNG ĐẠO, TAM GIẢI THOÁT MÔN",
+    "url": "https://huggingface.co/datasets/patonline85/radio-pmtl-site/resolve/main/audio/68012129.mp3",
+    "original_url": "https://api.spreaker.com/download/episode/68012129/t_p_36_trung_qu_n_trung_o_tam_gi_i_tho_t_m_n.mp3",
+    "duration": "1422"
+  },
+  {
+    "title": "TẬP 37 - CHÚ TRỌNG KHÔNG TÁNH, BÁT NHÃ DIỆC NHIÊN",
+    "url": "https://huggingface.co/datasets/patonline85/radio-pmtl-site/resolve/main/audio/68114589.mp3",
+    "original_url": "https://api.spreaker.com/download/episode/68114589/t_p_37_ch_tr_ng_kh_ng_t_nh_b_t_nh_di_c_nhi_n.mp3",
+    "duration": "1279"
+  },
+  {
+    "title": "TẬP 38. GIẢI THOÁT LÀ TRÍ, SINH QUANG SINH HUỆ",
+    "url": "https://huggingface.co/datasets/patonline85/radio-pmtl-site/resolve/main/audio/68234401.mp3",
+    "original_url": "https://api.spreaker.com/download/episode/68234401/t_p_38_gi_i_tho_t_l_tr_sinh_quang_sinh_hu.mp3",
+    "duration": "1083"
+  },
+  {
+    "title": "TẬP 39 - CHỨNG NGỘ TÁNH KHÔNG, CHIẾU KIẾN NGŨ UẨN",
+    "url": "https://huggingface.co/datasets/patonline85/radio-pmtl-site/resolve/main/audio/68383585.mp3",
+    "original_url": "https://api.spreaker.com/download/episode/68383585/t_p_39_ch_ng_ng_t_nh_kh_ng_chi_u_ki_n_ng_u_n.mp3",
+    "duration": "1513"
+  },
+  {
+    "title": "TẬP 40 - TRÁNH XA SỰ ĐỐ KỴ, VƯỢT QUA CHÍNH MÌNH",
+    "url": "https://huggingface.co/datasets/patonline85/radio-pmtl-site/resolve/main/audio/68509024.mp3",
+    "original_url": "https://api.spreaker.com/download/episode/68509024/t_p_40_tr_nh_xa_s_k_v_t_qua_ch_nh_m_nh.mp3",
+    "duration": "807"
+  },
+  {
+    "title": "TẬP 41 - TÂM TỊNH TRÍ HUỆ, RỜI XA CHƯỚNG NGẠI",
+    "url": "https://huggingface.co/datasets/patonline85/radio-pmtl-site/resolve/main/audio/68689658.mp3",
+    "original_url": "https://api.spreaker.com/download/episode/68689658/t_p_41_t_m_t_nh_tr_hu_r_i_xa_ch_ng_ng_i.mp3",
+    "duration": "861"
+  },
+  {
+    "title": "TẬP 42 - TAM GIỚI DUY TÂM, VẠN PHÁP DUY THỨC",
+    "url": "https://huggingface.co/datasets/patonline85/radio-pmtl-site/resolve/main/audio/68872053.mp3",
+    "original_url": "https://api.spreaker.com/download/episode/68872053/t_p_42_tam_gi_i_duy_t_m_v_n_ph_p_duy_th_c.mp3",
+    "duration": "1185"
+  },
+  {
+    "title": "TẬP 43 - VÔ TƯỚNG CHÍNH LÀ KHÔNG CHẤP TƯỚNG",
+    "url": "https://huggingface.co/datasets/patonline85/radio-pmtl-site/resolve/main/audio/69268038.mp3",
+    "original_url": "https://api.spreaker.com/download/episode/69268038/t_p_43_v_t_ng_ch_nh_l_kh_ng_ch_p_t_ng.mp3",
+    "duration": "1282"
+  },
+  {
+    "title": "TẬP 44 - ĐƯỢC NGHE PHẬT PHÁP TÔN TRỌNG CÚNG DƯỜNG",
+    "url": "https://huggingface.co/datasets/patonline85/radio-pmtl-site/resolve/main/audio/69483028.mp3",
+    "original_url": "https://api.spreaker.com/download/episode/69483028/t_p_44_c_nghe_ph_t_ph_p_t_n_tr_ng_c_ng_d_ng.mp3",
+    "duration": "836"
+  },
+  {
+    "title": "TẬP 45 - TỨ DIỆU ĐẾ CHÍNH LÀ GIẢI THOÁT ĐẾ",
+    "url": "https://huggingface.co/datasets/patonline85/radio-pmtl-site/resolve/main/audio/69825080.mp3",
+    "original_url": "https://api.spreaker.com/download/episode/69825080/t_p_45_t_di_u_ch_nh_l_gi_i_tho_t.mp3",
+    "duration": "1257"
+  },
+  {
+    "title": "TẬP 46 - QUÁN PHÁP VÔ NGÃ, THƯỜNG HẰNG BẤT BIẾN",
+    "url": "https://huggingface.co/datasets/patonline85/radio-pmtl-site/resolve/main/audio/70209507.mp3",
+    "original_url": "https://api.spreaker.com/download/episode/70209507/t_p_46_qu_n_ph_p_v_ng_th_ng_h_ng_b_t_bi_n.mp3",
+    "duration": "1326"
+  },
+  {
+    "title": "TẬP 47 - NẾU CÓ THỂ BỐ THÍ TÂM MỚI CÓ THỂ HÀNH THÂM TRÍ TUỆ",
+    "url": "https://huggingface.co/datasets/patonline85/radio-pmtl-site/resolve/main/audio/70652945.mp3",
+    "original_url": "https://api.spreaker.com/download/episode/70652945/t_p_47_n_u_c_th_b_th_t_m_m_i_c_th_h_nh_th_m_tr_tu.mp3",
+    "duration": "1206"
+  },
+  {
+    "title": "PHẦN 01 - NHẤT MỆNH NHỊ VẬN TAM PHONG THỦY",
+    "url": "https://huggingface.co/datasets/patonline85/radio-pmtl-site/resolve/main/audio/71091458.mp3",
+    "original_url": "https://api.spreaker.com/download/episode/71091458/ph_n_01_nh_t_m_nh_nh_v_n_tam_phong_th_y.mp3",
+    "duration": "1264"
+  }
+]
