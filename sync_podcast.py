@@ -5,8 +5,8 @@ import os
 from huggingface_hub import HfApi
 
 # Cấu hình
-RSS_URL = "https://www.spreaker.com/show/6422189/episodes/feed"
-HF_REPO = "patonline85/radio-pmtl-site" # Mình đã cập nhật dựa trên log của bạn
+RSS_URL = "https://www.spreaker.com/show/6422707/episodes/feed"
+HF_REPO = "pmtlprotect123/radio-pmtl-site-pttddk" # Mình đã cập nhật dựa trên log của bạn
 HF_TOKEN = os.getenv("HF_TOKEN")
 JSON_FILE = "playlist.json"
 
