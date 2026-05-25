@@ -196,6 +196,17 @@
             audio.src = url;
             audio.play();
         }
+        audio.addEventListener('ended', function() {
+            // Tìm phần tử (bài nhạc) đang được đánh dấu là active (đang phát)
+            // Dựa vào class 'border-clay' mà bạn đã set trong hàm play()
+            const currentItem = document.querySelector('.item.border-clay');
+            
+            // Nếu tìm thấy bài hiện tại và nó CÓ bài kế tiếp (không phải bài cuối cùng)
+            if (currentItem && currentItem.nextElementSibling) {
+                // Tự động "bấm" vào bài kế tiếp
+                currentItem.nextElementSibling.click();
+            }
+        });
     </script>
 </body>
 </html>
