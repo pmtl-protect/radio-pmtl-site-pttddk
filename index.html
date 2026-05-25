@@ -72,7 +72,7 @@
     <header class="w-full py-4 md:py-6 flex justify-center items-center shrink-0">
         <h1 class="text-xl md:text-2xl font-semibold tracking-wide flex items-center gap-3">
             <img src="logo.png" alt="Logo" class="h-8 w-auto object-contain">
-            Phật Tử Thiên Địa Du Ký
+            Bạch Thoại Phật Pháp
         </h1>
     </header>
 
@@ -91,6 +91,10 @@
                     <h2 id="cur-title" class="text-sm md:text-xl font-semibold text-ink line-clamp-2 md:min-h-[3.5rem]">
                         Vui lòng chọn một bài pháp...
                     </h2>
+                    
+                    <button id="share-btn" class="hidden mt-3 px-4 py-1.5 bg-paper border border-clay/30 text-clay text-xs rounded-full hover:bg-clay hover:text-white transition shadow-sm mx-auto flex items-center justify-center gap-2" onclick="shareTrack()">
+                        <i class="fa-solid fa-share-nodes"></i> Chia sẻ bài này
+                    </button>
                 </div>
 
             </div>
@@ -130,10 +134,14 @@
         // Fetch data
         fetch('playlist.json')
             .then(r => r.json())
-            .then(data => renderPlaylist(data))
+            .then(data => {
+                renderPlaylist(data);
+                checkUrlAndPlay(); 
+            })
             .catch(err => {
                 console.warn('Không tìm thấy playlist.json, đang sử dụng dữ liệu mẫu.');
                 renderPlaylist(fallbackData);
+                checkUrlAndPlay();
             });
 
         function renderPlaylist(data) {
@@ -141,7 +149,7 @@
             
             list.innerHTML = data.map((t, index) => `
                 <div class="item group flex items-center p-3 md:p-4 rounded-2xl cursor-pointer transition-all duration-300 hover:bg-paper border border-transparent"
-                     onclick="play('${t.url}', '${t.title}', this)">
+                     onclick="play('${t.url}', '${t.title}', this, ${index})">
                     
                     <div class="w-8 h-8 md:w-10 md:h-10 shrink-0 rounded-full bg-paper text-clay flex items-center justify-center mr-3 md:mr-4 shadow-sm group-hover:bg-clay group-hover:text-white transition-all duration-300 group-active:scale-95">
                         <i class="play-icon fa-solid fa-play text-xs md:text-sm ml-0.5"></i>
@@ -157,7 +165,7 @@
             `).join('');
         }
 
-        function play(url, t, el) {
+        function play(url, t, el, index = null) {
             // Xóa state active của tất cả các item
             document.querySelectorAll('.item').forEach(i => {
                 i.classList.remove('bg-paper', 'border-clay', 'shadow-sm');
@@ -194,8 +202,53 @@
             // Cập nhật giao diện player
             title.innerText = t;
             audio.src = url;
-            audio.play();
+            
+            // Hiện nút chia sẻ
+            document.getElementById('share-btn').classList.remove('hidden');
+            document.getElementById('share-btn').classList.add('md:inline-flex');
+            
+            if (index !== null) {
+                // Cập nhật URL
+                window.history.replaceState(null, null, '?track=' + index);
+            }
+
+            audio.play().catch(error => {
+                console.warn("Autoplay bị chặn bởi trình duyệt.");
+            });
         }
+        // Kiểm tra URL khi vừa vào trang
+        function checkUrlAndPlay() {
+            const urlParams = new URLSearchParams(window.location.search);
+            const trackIndex = urlParams.get('track');
+            
+            if (trackIndex !== null) {
+                const items = document.querySelectorAll('.item');
+                if (items[trackIndex]) {
+                    setTimeout(() => {
+                        items[trackIndex].scrollIntoView({ behavior: 'smooth', block: 'center' });
+                        items[trackIndex].click();
+                    }, 300);
+                }
+            }
+        }
+
+        // Chức năng copy link
+        function shareTrack() {
+            const url = window.location.href;
+            navigator.clipboard.writeText(url).then(() => {
+                const btn = document.getElementById('share-btn');
+                const originalHtml = btn.innerHTML;
+                
+                btn.innerHTML = '<i class="fa-solid fa-check"></i> Đã chép link!';
+                btn.classList.add('bg-clay', 'text-white');
+                
+                setTimeout(() => {
+                    btn.innerHTML = originalHtml;
+                    btn.classList.remove('bg-clay', 'text-white');
+                }, 2000);
+            });
+        }
+
         audio.addEventListener('ended', function() {
             // Tìm phần tử (bài nhạc) đang được đánh dấu là active (đang phát)
             // Dựa vào class 'border-clay' mà bạn đã set trong hàm play()
