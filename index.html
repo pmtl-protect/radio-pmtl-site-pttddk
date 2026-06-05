@@ -131,15 +131,18 @@
             { url: '#', title: 'Bài 5: Tỉnh giác trong từng phút giây hiện tại', duration: '16:05' }
         ];
 
+		// Thay 'GITHUB_USERNAME' và 'TEN_REPO' bằng tên tài khoản và tên kho chứa (repository) trên GitHub của bạn
+        const jsonUrl = 'https://raw.githubusercontent.com/pmtl-protect/radio-pmtl-site-pttddk/main/playlist.json';
+
         // Fetch data
-        fetch('playlist.json')
+        fetch(jsonUrl)
             .then(r => r.json())
             .then(data => {
                 renderPlaylist(data);
                 checkUrlAndPlay(); 
             })
             .catch(err => {
-                console.warn('Không tìm thấy playlist.json, đang sử dụng dữ liệu mẫu.');
+                console.warn('Không tìm thấy playlist.json trên GitHub, đang sử dụng dữ liệu mẫu.');
                 renderPlaylist(fallbackData);
                 checkUrlAndPlay();
             });
