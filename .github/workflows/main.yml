@@ -39,5 +39,5 @@ jobs:
           git config --global user.name "GitHub Action"
           git config --global user.email "action@github.com"
           git add playlist.json
-          git commit -m "Cập nhật bài mới tự động" || exit 0
+          git commit -m "Cập nhật bài mới tự động [skip netlify]" || exit 0
           git push
