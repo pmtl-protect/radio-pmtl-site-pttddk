@@ -1,0 +1,5 @@
+[[headers]]
+  for = "/*"
+  [headers.values]
+    # Cấp quyền hiển thị iframe đích danh cho 2 tên miền chính thức và môi trường localhost để test
+    Content-Security-Policy = "frame-ancestors 'self' https://radio.pmtl.site https://nghebtpp.pmtl.site http://localhost:*"
