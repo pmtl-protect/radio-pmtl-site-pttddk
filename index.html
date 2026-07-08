@@ -242,28 +242,55 @@
             }
         }
 
-        // Chức năng copy link chuẩn SEO của trang chủ
+        // Chức năng copy link chống lỗi trên mọi trình duyệt (Bao gồm Safari/iPhone)
         function shareTrack() {
-            // Lấy tham số bài hiện tại (ví dụ: ?track=1)
             const currentPath = window.location.search;
             
-            // Ép thành link của trang chủ + kênh Phật tử thiên địa du ký + mã bài hát
+            // CHÚ Ý ĐỔI MÃ KÊNH Ở ĐÂY CHO TỪNG TRANG: pttddk, khai-thi, btpp
             const url = `https://radio.pmtl.site/?page=pttddk&path=${encodeURIComponent(currentPath)}`;
             
-            navigator.clipboard.writeText(url).then(() => {
+            // Hàm xử lý đổi giao diện nút bấm thành màu đỏ khi copy thành công
+            const showSuccess = () => {
                 const btn = document.getElementById('share-btn');
                 const originalHtml = btn.innerHTML;
-                
                 btn.innerHTML = '<i class="fa-solid fa-check"></i> Đã chép link!';
                 btn.classList.add('bg-clay', 'text-white');
-                
                 setTimeout(() => {
                     btn.innerHTML = originalHtml;
                     btn.classList.remove('bg-clay', 'text-white');
                 }, 2000);
-            }).catch(err => {
-                console.error("Không thể copy: ", err);
-            });
+            };
+
+            // Phương án 1: Dùng API hiện đại (Nếu trình duyệt cho phép)
+            if (navigator.clipboard && window.isSecureContext) {
+                navigator.clipboard.writeText(url).then(showSuccess).catch(err => {
+                    // Nếu bị chặn, tự động chuyển sang Phương án 2
+                    fallbackCopy(url, showSuccess);
+                });
+            } else {
+                // Phương án 2: Dùng cách giả lập bôi đen copy (Dành cho iOS/Trình duyệt cũ)
+                fallbackCopy(url, showSuccess);
+            }
+        }
+
+        // Hàm dự phòng (tạo ra một ô text ẩn để trình duyệt tự động bôi đen và copy)
+        function fallbackCopy(text, successCallback) {
+            const textArea = document.createElement("textarea");
+            textArea.value = text;
+            textArea.style.position = "fixed";
+            textArea.style.top = "0";
+            textArea.style.left = "0";
+            textArea.style.opacity = "0";
+            document.body.appendChild(textArea);
+            textArea.focus();
+            textArea.select();
+            try {
+                const successful = document.execCommand('copy');
+                if (successful) successCallback();
+            } catch (err) {
+                console.error('Vẫn không thể copy: ', err);
+            }
+            document.body.removeChild(textArea);
         }
 
         audio.addEventListener('ended', function() {
