@@ -131,7 +131,7 @@
             { url: '#', title: 'Bài 5: Tỉnh giác trong từng phút giây hiện tại', duration: '16:05' }
         ];
 
-		// Thay 'GITHUB_USERNAME' và 'TEN_REPO' bằng tên tài khoản và tên kho chứa (repository) trên GitHub của bạn
+        // Thay 'GITHUB_USERNAME' và 'TEN_REPO' bằng tên tài khoản và tên kho chứa (repository) trên GitHub của bạn
         const jsonUrl = 'playlist.json';
 
         // Fetch data
@@ -211,14 +211,21 @@
             document.getElementById('share-btn').classList.add('md:inline-flex');
             
             if (index !== null) {
-                // Cập nhật URL
+                // Cập nhật URL nội bộ iframe
                 window.history.replaceState(null, null, '?track=' + index);
+                
+                // Gửi tín hiệu lên trang cha để cập nhật URL trình duyệt
+                window.parent.postMessage({
+                    type: 'UPDATE_URL',
+                    path: window.location.search
+                }, '*');
             }
 
             audio.play().catch(error => {
                 console.warn("Autoplay bị chặn bởi trình duyệt.");
             });
         }
+
         // Kiểm tra URL khi vừa vào trang
         function checkUrlAndPlay() {
             const urlParams = new URLSearchParams(window.location.search);
@@ -235,9 +242,14 @@
             }
         }
 
-        // Chức năng copy link
+        // Chức năng copy link chuẩn SEO của trang chủ
         function shareTrack() {
-            const url = window.location.href;
+            // Lấy tham số bài hiện tại (ví dụ: ?track=1)
+            const currentPath = window.location.search;
+            
+            // Ép thành link của trang chủ + kênh Phật tử thiên địa du ký + mã bài hát
+            const url = `https://radio.pmtl.site/?page=pttddk&path=${encodeURIComponent(currentPath)}`;
+            
             navigator.clipboard.writeText(url).then(() => {
                 const btn = document.getElementById('share-btn');
                 const originalHtml = btn.innerHTML;
@@ -249,12 +261,13 @@
                     btn.innerHTML = originalHtml;
                     btn.classList.remove('bg-clay', 'text-white');
                 }, 2000);
+            }).catch(err => {
+                console.error("Không thể copy: ", err);
             });
         }
 
         audio.addEventListener('ended', function() {
             // Tìm phần tử (bài nhạc) đang được đánh dấu là active (đang phát)
-            // Dựa vào class 'border-clay' mà bạn đã set trong hàm play()
             const currentItem = document.querySelector('.item.border-clay');
             
             // Nếu tìm thấy bài hiện tại và nó CÓ bài kế tiếp (không phải bài cuối cùng)
@@ -262,6 +275,14 @@
                 // Tự động "bấm" vào bài kế tiếp
                 currentItem.nextElementSibling.click();
             }
+        });
+
+        // Báo cho trang cha biết khi iframe vừa tải xong
+        window.addEventListener('load', () => {
+            window.parent.postMessage({
+                type: 'UPDATE_URL',
+                path: window.location.search
+            }, '*');
         });
     </script>
 </body>
