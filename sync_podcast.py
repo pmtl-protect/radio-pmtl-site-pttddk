@@ -6,18 +6,27 @@ from huggingface_hub import HfApi
 
 # Cấu hình
 RSS_URL = "https://www.spreaker.com/show/6422707/episodes/feed"
-HF_REPO = "pmtlprotect123/radio-pmtl-site-pttddk" # Mình đã cập nhật dựa trên log của bạn
+HF_REPO = "pmtlprotect123/radio-pmtl-site-pttddk"
 HF_TOKEN = os.getenv("HF_TOKEN")
 JSON_FILE = "playlist.json"
 
 api = HfApi()
 
 def sync():
+    playlist_modified = False # Biến theo dõi xem có link cũ nào được sửa không
+
     # 1. Đọc playlist hiện tại
     if os.path.exists(JSON_FILE):
         with open(JSON_FILE, "r", encoding="utf-8") as f:
             try:
                 playlist = json.load(f)
+                
+                # --- TỰ ĐỘNG QUÉT VÀ SỬA LINK CŨ ---
+                for item in playlist:
+                    if item.get("url") and item["url"].startswith("https://huggingface.co"):
+                        item["url"] = item["url"].replace("https://huggingface.co", "/huggingface-audio")
+                        playlist_modified = True # Đánh dấu là file có sự thay đổi cần lưu lại
+                # -----------------------------------
             except:
                 playlist = []
     else:
@@ -36,8 +45,7 @@ def sync():
         if original_url not in existing_urls:
             title = entry.title
             
-            # SỬA LỖI TẠI ĐÂY: Chỉ lấy phần ID số ở cuối URL để làm tên file
-            # Ví dụ: từ 'https://.../63010910' lấy ra '63010910'
+            # Chỉ lấy phần ID số ở cuối URL để làm tên file
             raw_id = entry.id.split('/')[-1] 
             file_name = f"{raw_id}.mp3"
             
@@ -58,8 +66,8 @@ def sync():
                     token=HF_TOKEN
                 )
 
-                # 5. Tạo link Raw từ Hugging Face
-                hf_raw_url = f"https://huggingface.co/datasets/{HF_REPO}/resolve/main/audio/{file_name}"
+                # 5. Tạo link Raw qua Netlify Proxy
+                hf_raw_url = f"/huggingface-audio/datasets/{HF_REPO}/resolve/main/audio/{file_name}"
                 
                 # Lấy duration nếu có
                 duration = ""
@@ -79,16 +87,17 @@ def sync():
             except Exception as e:
                 print(f"Lỗi khi xử lý bài {title}: {e}")
 
-    if new_items:
-        # Đưa các bài mới lên đầu danh sách
+    # 6. LƯU FILE: Lưu lại nếu có bài mới HOẶC nếu vừa sửa link cũ thành công
+    if new_items or playlist_modified:
         updated_playlist = new_items + playlist
         with open(JSON_FILE, "w", encoding="utf-8") as f:
             json.dump(updated_playlist, f, ensure_ascii=False, indent=2)
         return True
+    
     return False
 
 if __name__ == "__main__":
     if sync():
-        print("Đồng bộ hoàn tất!")
+        print("Đồng bộ hoàn tất (Đã cập nhật bài mới hoặc sửa xong link cũ)!")
     else:
-        print("Không có bài mới để cập nhật.")
+        print("Không có bài mới để cập nhật, và các link cũ đều đã chuẩn xác.")
